@@ -70,7 +70,7 @@ body {
 }
 
 .header {
-	background-color: #1a6699;
+	background: url(../img/banner.jpg);
 	color: #fff;
 	padding-bottom: 6rem;
 	padding-top: 6rem;
