@@ -36,8 +36,12 @@
 							</small>
 						</header>
 
-						<?php $plxShow->artThumbnail(); ?>
-						<?php $plxShow->artChapo(); ?>
+                        <div class="article-thumbnail">
+                            <?php $plxShow->artThumbnail(); ?>
+                        </div>
+                        <div class="article-chapo">
+                            <?php $plxShow->artChapo(); ?>
+                        </div>
 
 						<footer>
 							<small>

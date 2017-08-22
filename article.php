@@ -27,8 +27,12 @@
 							</small>
 						</header>
 
-						<?php $plxShow->artThumbnail(); ?>
-						<?php $plxShow->artContent(); ?>
+                        <div class="article-thumbnail">
+                            <?php $plxShow->artThumbnail(); ?>
+                        </div>
+                        <div class="article-content">
+                            <?php $plxShow->artContent(); ?>
+                        </div>
 
 						<footer>
 							<small>
