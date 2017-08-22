@@ -1,11 +1,10 @@
 /*
 # ------------------ BEGIN LICENSE BLOCK ------------------
 #
-# This file is part of PluXml : http://www.pluxml.org
+# Original file is from PluXml default theme by Jos and Stephane F. (licenced under GPL)
 #
 # Package:		theme.css
-# Copyright (c) 2017 PluXml
-# Authors		Jos, Stephane F.
+# Authors		P3ter
 # Licensed under the GPL license.
 # See http://www.gnu.org/licenses/gpl.html
 #
@@ -148,9 +147,15 @@ body {
 	content: '|';
 	padding-left: 0;
 }
-.article img.art_thumbnail {
-	padding: 30px 15px 15px 0;
-    float: left;
+.article-thumbnail img.art_thumbnail {
+        display: block;
+        margin: auto;
+}
+.article-chapo {
+
+}
+.article-content {
+
 }
 .page.mode-article .article footer {
 	border-top: 1px solid #dedede;
