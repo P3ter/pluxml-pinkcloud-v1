@@ -9,7 +9,7 @@
 # ------------------- END LICENSE BLOCK -------------------
 */
 
-.art_thumbnail img.art_thumbnail {
+.article-thumbnail img.art_thumbnail {
         display: block;
         margin: auto;
 }
