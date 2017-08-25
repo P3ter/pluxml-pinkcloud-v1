@@ -34,7 +34,7 @@
 
 	<header class="header">
 		<div class="container">
-			<h1 class="no-margin heading-small"><?php $plxShow->mainTitle('link'); ?></h1>
-			<h2 class="h5 no-margin"><?php $plxShow->subTitle(); ?></h2>
+			<h1 class="no-margin heading-small hide"><?php $plxShow->mainTitle('link'); ?></h1>
+			<h2 class="h5 no-margin hide"><?php $plxShow->subTitle(); ?></h2>
 		</div>
 	</header>
