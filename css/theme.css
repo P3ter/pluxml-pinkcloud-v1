@@ -11,6 +11,25 @@
 # ------------------- END LICENSE BLOCK -------------------
 */
 
+/* ----- Links ----- */
+
+a {
+    color: #b352fc;
+}
+
+a:hover {
+    color: #b352fc;
+    text-decoration: underline;
+}
+a.active {
+    color: #b352fc;
+    font-weight: bold;
+}
+.menu li.active a {
+    color: #b352fc;
+    font-weight: bold;
+}
+
 /* ----- Menu ----- */
 
 nav {
@@ -49,10 +68,6 @@ nav {
 	.responsive-menu label:before {
 		content: '\039e';
 	}
-}
-
-li a.active {
-	color: #e42929;
 }
 
 /* ---------- Header ---------- */
@@ -350,14 +365,6 @@ body {
 	margin: 0;
 	padding: 0 1rem;
 	background-color: #fff;
-}
-.static.group.active,
-.static.menu.active a {
-	color: #e42929;
-}
-.static.group.noactive,
-.static.menu.noactive a {
-	color: #258fd6;
 }
 .menu span::before {
 	content: '\25bc';
