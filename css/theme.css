@@ -84,9 +84,9 @@ body {
 	}
 }
 
-.header {
-	background: url(../img/couverture2.jpg) top center no-repeat;
-    height: 280px;
+.header img {
+    display: block;
+    margin: 0 auto;
 }
 .header a {
 	color: #fff;

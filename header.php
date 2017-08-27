@@ -34,7 +34,10 @@
 
 	<header class="header">
 		<div class="container">
-			<h1 class="no-margin heading-small hide"><?php $plxShow->mainTitle('link'); ?></h1>
-			<h2 class="h5 no-margin hide"><?php $plxShow->subTitle(); ?></h2>
+		    <a href="<?php $plxShow->racine() ?>">
+			    <h1 class="no-margin heading-small hide"><?php $plxShow->mainTitle(); ?></h1>
+			    <h2 class="h5 no-margin hide"><?php $plxShow->subTitle(); ?></h2>
+                <img src="themes/pluxml-pinkcloud-v1/img/couverture2.jpg" />
+            </a>
 		</div>
 	</header>
