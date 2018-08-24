@@ -85,9 +85,8 @@ body {
 .header .banniere{
   background: url(../img/logo.png) no-repeat center;
   height: 315px;
-  margin-top: 20px;
 }
-@media (min-width: 64rem) {
+@media (max-width: 64rem) {
 	.header .banniere {
     background: #ff9e9d url(../img/logo-mobile.png) no-repeat center;
     height: 200px;
