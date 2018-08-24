@@ -50,10 +50,9 @@
 
 	<header class="header">
 		<div class="container">
-		    <a href="<?php $plxShow->racine() ?>">
+		    <a class="banniere float-center" href="<?php $plxShow->racine() ?>">
 			    <h1 class="no-margin heading-small hide"><?php $plxShow->mainTitle(); ?></h1>
 			    <h2 class="h5 no-margin hide"><?php $plxShow->subTitle(); ?></h2>
-          <img class="float-center" alt="Pink Cloud" src="themes/pluxml-pinkcloud-v1/img/logo.png" />
         </a>
 		</div>
 	</header>

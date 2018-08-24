@@ -76,19 +76,28 @@ body {
 	background-color: #fff;
 	font-size: 1.6rem;
 }
-
 @media (min-width: 64rem) {
 	.container {
 		padding-left: 15rem;
 		padding-right: 15rem;
 	}
 }
-
 .header a {
 	color: #fff;
 }
 .header a:hover {
 	text-decoration: none;
+}
+.header a .banniere{
+  background: url(../img/logo.png) no-repeat center;
+  height: 315px;
+  margin-top: 20px;
+}
+@media (min-width: 64rem) {
+	.banniere {
+    background: #ff9e9d url(../img/logo-mobile.png) no-repeat center;
+    height: 200px;
+	}
 }
 
 /* ---------- Main ---------- */
